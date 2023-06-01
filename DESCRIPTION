@@ -29,6 +29,7 @@ Depends:
 Imports: 
     Bchron,
 Suggests: 
+    ArchaeoPhases (>= 2.0.0),
     coda,
     knitr,
     rmarkdown

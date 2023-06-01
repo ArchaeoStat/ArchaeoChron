@@ -1,9 +1,12 @@
-citHeader("To cite the package 'ArchaeoChron' in publications use:")
+citHeader("To cite ArchaeoChron in publications use:")
 
-	 citation(auto = meta)
-
-
-
-
-
-
+bibentry(
+  bibtype      = "Manual",
+  author       = c(person("Anne", "Philippe"), person("Marie-Anne", "Vibet")),
+  title        = "{{ArchaeoChron: Bayesian Modeling of Archaeological Chronologies}}",
+  year         = sub("-.*", "", meta$Date),
+  organization = "Université de Nantes",
+  address      = "Nantes, France",
+  note         = sprintf("R package version %s", meta$Version),
+  url          = "https://ArchaeoStat.github.io/ArchaeoChron"
+)

@@ -20,7 +20,7 @@ Provides a list of functions for the Bayesian modeling of archaeological chronol
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/ArchaeoStat/ArchaeoChron}
+  \item \url{https://archaeostat.github.io/archaeochron/}
   \item Report bugs at \url{https://github.com/ArchaeoStat/ArchaeoChron/issues}
 }
 

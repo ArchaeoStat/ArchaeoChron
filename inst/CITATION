@@ -4,9 +4,9 @@ bibentry(
   bibtype      = "Manual",
   author       = c(person("Anne", "Philippe"), person("Marie-Anne", "Vibet")),
   title        = "{{ArchaeoChron: Bayesian Modeling of Archaeological Chronologies}}",
-  year         = sub("-.*", "", meta$Date),
+  year         = "2023",
   organization = "Université de Nantes",
   address      = "Nantes, France",
   note         = sprintf("R package version %s", meta$Version),
-  url          = "https://ArchaeoStat.github.io/ArchaeoChron"
+  url          = "https://archaeostat.github.io/archaeochron"
 )

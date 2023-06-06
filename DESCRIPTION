@@ -1,7 +1,7 @@
 Type: Package
 Package: ArchaeoChron
 Title: Bayesian Modeling of Archaeological Chronologies
-Version: 0.1.0.9000
+Version: 0.2
 Authors@R: c(
     person("Anne", "Philippe", , "anne.philippe@univ-nantes.fr", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5331-5087")),

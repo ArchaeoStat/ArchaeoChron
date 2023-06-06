@@ -52,18 +52,18 @@ the vignette we wrote about the estimation of a combination of dates
 
       Philippe A, Vibet M (2023). _ArchaeoChron: Bayesian Modeling of
       Archaeological Chronologies_. Université de Nantes, Nantes, France. R
-      package version 0.1.0,
-      <https://ArchaeoStat.github.io/ArchaeoChron>.
+      package version 0.2, <https://archaeostat.github.io/archaeochron>.
 
     Une entrée BibTeX pour les utilisateurs LaTeX est
 
       @Manual{,
         author = {Anne Philippe and Marie-Anne Vibet},
         title = {{{ArchaeoChron: Bayesian Modeling of Archaeological Chronologies}}},
+        year = {2023},
         organization = {Université de Nantes},
         address = {Nantes, France},
-        note = {R package version 0.1.0},
-        url = {https://ArchaeoStat.github.io/ArchaeoChron},
+        note = {R package version 0.2},
+        url = {https://archaeostat.github.io/archaeochron},
       }
 
 ## Installation

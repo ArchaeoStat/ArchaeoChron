@@ -1,4 +1,8 @@
-# ArchaeoChron v0.1.0
+# ArchaeoChron v0.2
+
+* Follow changes in **ArchaeoPhases** v2.0.
+
+# ArchaeoChron v0.1
 
 * Initial release.
 

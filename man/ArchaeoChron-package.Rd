@@ -7,7 +7,7 @@
 \alias{ArchaeoChron}
 \title{ArchaeoChron: Bayesian Modeling of Archaeological Chronologies}
 \description{
-Provides a list of functions for the Bayesian modeling of archaeological chronologies. The Bayesian models are implemented in 'JAGS' ('JAGS' stands for Just Another Gibbs Sampler. It is a program for the analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation. See \url{http://mcmc-jags.sourceforge.net/} and "JAGS Version 4.3.0 user manual", Martin Plummer (2017) \url{https://sourceforge.net/projects/mcmc-jags/files/Manuals/}.). The inputs are measurements with their associated standard deviations and the study period. The output is the MCMC sample of the posterior distribution of the event date with or without radiocarbon calibration.
+Provides a list of functions for the Bayesian modeling of archaeological chronologies. The Bayesian models are implemented in 'JAGS' (Plummer 2003). The inputs are measurements with their associated standard deviations and the study period. The output is the MCMC sample of the posterior distribution of the event date with or without radiocarbon calibration.
 }
 \details{
 \tabular{ll}{
@@ -20,7 +20,8 @@ Provides a list of functions for the Bayesian modeling of archaeological chronol
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://archaeostat.github.io/archaeochron/}
+  \item \url{https://ArchaeoStat.github.io/ArchaeoChron/}
+  \item \url{https://github.com/ArchaeoStat/ArchaeoChron}
   \item Report bugs at \url{https://github.com/ArchaeoStat/ArchaeoChron/issues}
 }
 

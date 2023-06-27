@@ -1,5 +1,6 @@
 ---
 output: github_document
+bibliography: vignettes/bibliography.bib
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -52,3 +53,20 @@ And the development version from [GitHub](https://github.com/) with:
 # install.packages("remotes")
 remotes::install_github("ArchaeoStat/ArchaeoChron")
 ```
+
+## Usage
+
+**ArchaeoChron** provides functions that return a Markov chain of the posterior distribution of one of the following Bayesian models:
+
+* `combination_Gauss()`: simple combination of Gaussian dates.
+* `combinationWithOutliers_Gauss()`: combine Gaussian dates using the outliers model described in @bronkramsey2009.
+* `combinationWithRandomEffect_Gauss()`: combine Gaussian dates with a random effect [@congdon2010].
+* `eventModel_Gauss()`: combine Gaussian dates with an individual random effect [@lanos2017].
+
+* `chrono_Gauss()`: simple chronology of Gaussian dates.
+* `chronoOutliers_Gauss()`: chronology of Gaussian dates with outlier modeling [@bronkramsey2009].
+* `chronoEvents_Gauss()`: chronology of events combining Gaussian dates [@lanos2017].
+
+* `eventModel_C14()`: combine radiocarbon dates.
+
+## References

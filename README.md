@@ -52,7 +52,7 @@ the vignette we wrote about the estimation of a combination of dates
 
       Philippe A, Vibet M (2023). _ArchaeoChron: Bayesian Modeling of
       Archaeological Chronologies_. Université de Nantes, Nantes, France. R
-      package version 0.2, <https://archaeostat.github.io/archaeochron>.
+      package version 0.2, <https://ArchaeoStat.github.io/ArchaeoChron/>.
 
     Une entrée BibTeX pour les utilisateurs LaTeX est
 
@@ -63,7 +63,7 @@ the vignette we wrote about the estimation of a combination of dates
         organization = {Université de Nantes},
         address = {Nantes, France},
         note = {R package version 0.2},
-        url = {https://archaeostat.github.io/archaeochron},
+        url = {https://ArchaeoStat.github.io/ArchaeoChron/},
       }
 
 ## Installation
@@ -81,3 +81,59 @@ And the development version from [GitHub](https://github.com/) with:
 # install.packages("remotes")
 remotes::install_github("ArchaeoStat/ArchaeoChron")
 ```
+
+## Usage
+
+**ArchaeoChron** provides functions that return a Markov chain of the
+posterior distribution of one of the following Bayesian models:
+
+- `combination_Gauss()`: simple combination of Gaussian dates.
+
+- `combinationWithOutliers_Gauss()`: combine Gaussian dates using the
+  outliers model described in Bronk Ramsey (2009).
+
+- `combinationWithRandomEffect_Gauss()`: combine Gaussian dates with a
+  random effect (Congdon 2010).
+
+- `eventModel_Gauss()`: combine Gaussian dates with an individual random
+  effect (Lanos and Philippe 2017).
+
+- `chrono_Gauss()`: simple chronology of Gaussian dates.
+
+- `chronoOutliers_Gauss()`: chronology of Gaussian dates with outlier
+  modeling (Bronk Ramsey 2009).
+
+- `chronoEvents_Gauss()`: chronology of events combining Gaussian dates
+  (Lanos and Philippe 2017).
+
+- `eventModel_C14()`: combine radiocarbon dates.
+
+## References
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-bronkramsey2009" class="csl-entry">
+
+Bronk Ramsey, Christopher. 2009. “Dealing with Outliers and Offsets in
+Radiocarbon Dating.” *Radiocarbon* 51 (3): 1023–45.
+<https://doi.org/10.1017/S0033822200034093>.
+
+</div>
+
+<div id="ref-congdon2010" class="csl-entry">
+
+Congdon, Peter D. 2010. *Applied Bayesian Hierarchical Methods*. Chapman
+and Hall/CRC. <https://doi.org/10.1201/9781584887218>.
+
+</div>
+
+<div id="ref-lanos2017" class="csl-entry">
+
+Lanos, Philippe, and Anne Philippe. 2017. “Hierarchical Bayesian
+Modeling for Combining Dates in Archeological Context.” *Journal de La
+Société Française de Statistique* 158 (2): 72–88.
+<http://www.numdam.org/item/JSFS_2017__158_2_72_0/>.
+
+</div>
+
+</div>

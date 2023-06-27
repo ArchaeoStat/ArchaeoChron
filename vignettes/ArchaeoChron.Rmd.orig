@@ -76,9 +76,9 @@ Here we will focus on the posterior distribution of the date of interest, i.e. t
 ```{r}
 MCMCSample1 <- cbind(MCMC1[[1]], MCMC1[[2]])
 MCMCEvent1 <- as_events(MCMCSample1, calendar = CE())
+plot(MCMCEvent1[, 1], level = 0.95)
 
 (M1 <- summary(MCMCEvent1[, 1], level = 0.95))
-plot(MCMCEvent1[, 1], level = 0.95)
 ```
 
 The date (mean posterior distribution) of the sunspot estimated using a simple Bayesian model that combines dates, is dates at `r M1[1, 2] ` years after Christ. This date is associated with a 95% confidence interval : [`r M1[1, 9] `, `r M1[1, 10] `].
@@ -108,9 +108,9 @@ Here we will focus on the posterior distribution of the date of interest i.e. th
 ```{r}
 MCMCSample2 <- cbind(MCMC2[[1]], MCMC2[[2]])
 MCMCEvent2 <- as_events(MCMCSample2, calendar = CE())
+plot(MCMCEvent2[, 1], level = 0.95)
 
 (M2 <- summary(MCMCEvent2[, 1], level = 0.95))
-plot(MCMCEvent2[, 1], level = 0.95)
 ```
 
 The date (mean posterior distribution) of the sunspot, estimated using a simple Bayesian model that combines dates and allows for outliers, is dates at `r M2[1, 2] ` years after Christ. This date is associated with a 95% confidence interval : [`r M2[1, 9] `, `r M2[1, 10] `].
@@ -139,9 +139,9 @@ Here we will focus on the posterior distribution of the date of interest i.e. th
 ```{r}
 MCMCSample3 <- cbind(MCMC3[[1]], MCMC3[[2]])
 MCMCEvent3 <- as_events(MCMCSample3, calendar = CE())
+plot(MCMCEvent3[, 1], level = 0.95)
 
 (M3 <- summary(MCMCEvent3[, 1], level = 0.95))
-plot(MCMCEvent3[, 1], level = 0.95)
 ```
 
 The date (mean posterior distribution) of the sunspot, estimated using a simple Bayesian model that combines dates and allows for random effects, is dates at `r M3[1, 2] ` years after Christ. This date is associated with a 95% confidence interval : [`r M3[1, 9] `, `r M3[1, 10] `].
@@ -185,9 +185,9 @@ Here we will focus on the posterior distribution of the event of interest (param
 ```{r}
 MCMCSample4 <- cbind(MCMC4[[1]], MCMC4[[2]])
 MCMCEvent4 <- as_events(MCMCSample4, calendar = CE())
+plot(MCMCEvent4[, 6], level = 0.95)
 
 (M4 <- summary(MCMCEvent4[, 6], level = 0.95))
-plot(MCMCEvent4[, 6], level = 0.95)
 ```
 
 The date (mean posterior distribution) of the sunspot, estimated using a simple Bayesian model that combines dates and allows for individual random effects, is dates at `r M4[1, 2] ` years after Christ. This date is associated with a 95% confidence interval : [`r M4[1, 9] `, `r M4[1, 10] `].

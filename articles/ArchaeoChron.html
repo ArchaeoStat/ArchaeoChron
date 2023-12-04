@@ -73,7 +73,7 @@
                         <h4 data-toc-skip class="author">A. Philippe and
 M.-A. Vibet</h4>
             
-            <h4 data-toc-skip class="date">2023-06-27</h4>
+            <h4 data-toc-skip class="date">2023-12-04</h4>
       
       <small class="dont-index">Source: <a href="https://github.com/ArchaeoStat/ArchaeoChron/blob/HEAD/vignettes/ArchaeoChron.Rmd" class="external-link"><code>vignettes/ArchaeoChron.Rmd</code></a></small>
       <div class="hidden name"><code>ArchaeoChron.Rmd</code></div>
@@ -362,7 +362,7 @@ plot of chunk unnamed-chunk-3
 <code class="sourceCode R"><span></span>
 <span><span class="op">(</span><span class="va">M1</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://ArchaeoStat.github.io/ArchaeoPhases/reference/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">MCMCEvent1</span><span class="op">[</span>, <span class="fl">1</span><span class="op">]</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;        mad mean sd  min   q1 median   q3  max start  end</span></span>
-<span><span class="co">#&gt; theta 1028 1028  3 1022 1027   1028 1029 1036  1025 1032</span></span></code></pre></div>
+<span><span class="co">#&gt; theta 1028 1028  3 1021 1027   1028 1029 1035  1025 1032</span></span></code></pre></div>
 <p>The date (mean posterior distribution) of the sunspot estimated using
 a simple Bayesian model that combines dates, is dates at 1028 years
 after Christ. This date is associated with a 95% confidence interval :
@@ -617,7 +617,7 @@ plot of chunk unnamed-chunk-5
 <code class="sourceCode R"><span></span>
 <span><span class="op">(</span><span class="va">M2</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://ArchaeoStat.github.io/ArchaeoPhases/reference/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">MCMCEvent2</span><span class="op">[</span>, <span class="fl">1</span><span class="op">]</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;        mad mean sd  min   q1 median   q3  max start  end</span></span>
-<span><span class="co">#&gt; theta 1029 1028  3 1021 1027   1028 1029 1035  1025 1032</span></span></code></pre></div>
+<span><span class="co">#&gt; theta 1028 1028  3 1022 1027   1028 1029 1035  1025 1032</span></span></code></pre></div>
 <p>The date (mean posterior distribution) of the sunspot, estimated
 using a simple Bayesian model that combines dates and allows for
 outliers, is dates at 1028 years after Christ. This date is associated
@@ -869,11 +869,11 @@ plot of chunk unnamed-chunk-7
 <code class="sourceCode R"><span></span>
 <span><span class="op">(</span><span class="va">M3</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://ArchaeoStat.github.io/ArchaeoPhases/reference/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">MCMCEvent3</span><span class="op">[</span>, <span class="fl">1</span><span class="op">]</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;        mad mean sd min   q1 median   q3  max start  end</span></span>
-<span><span class="co">#&gt; theta 1027 1026  5 989 1024   1027 1029 1049  1018 1035</span></span></code></pre></div>
+<span><span class="co">#&gt; theta 1027 1026  5 998 1024   1027 1029 1052  1018 1033</span></span></code></pre></div>
 <p>The date (mean posterior distribution) of the sunspot, estimated
 using a simple Bayesian model that combines dates and allows for random
 effects, is dates at 1026 years after Christ. This date is associated
-with a 95% confidence interval : [1018, 1035].</p>
+with a 95% confidence interval : [1018, 1033].</p>
 </div>
 <div class="section level3">
 <h3 id="event-model-bayesian-model-for-combining-gaussian-dates-with-individual-random-effects">Event Model : Bayesian model for combining Gaussian dates with
@@ -1130,12 +1130,12 @@ plot of chunk unnamed-chunk-9
 <span><span class="co">#&gt; Potential scale reduction factors:</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt;       Point est. Upper C.I.</span></span>
-<span><span class="co">#&gt; mu[1]          1       1.00</span></span>
-<span><span class="co">#&gt; mu[2]          1       1.00</span></span>
-<span><span class="co">#&gt; mu[3]          1       1.01</span></span>
-<span><span class="co">#&gt; mu[4]          1       1.01</span></span>
-<span><span class="co">#&gt; mu[5]          1       1.00</span></span>
-<span><span class="co">#&gt; theta          1       1.01</span></span>
+<span><span class="co">#&gt; mu[1]          1          1</span></span>
+<span><span class="co">#&gt; mu[2]          1          1</span></span>
+<span><span class="co">#&gt; mu[3]          1          1</span></span>
+<span><span class="co">#&gt; mu[4]          1          1</span></span>
+<span><span class="co">#&gt; mu[5]          1          1</span></span>
+<span><span class="co">#&gt; theta          1          1</span></span>
 <span><span class="co">#&gt; </span></span>
 <span><span class="co">#&gt; Multivariate psrf</span></span>
 <span><span class="co">#&gt; </span></span>
@@ -1161,11 +1161,11 @@ plot of chunk unnamed-chunk-10
 <code class="sourceCode R"><span></span>
 <span><span class="op">(</span><span class="va">M4</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://ArchaeoStat.github.io/ArchaeoPhases/reference/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">MCMCEvent4</span><span class="op">[</span>, <span class="fl">6</span><span class="op">]</span>, level <span class="op">=</span> <span class="fl">0.95</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt;        mad mean sd  min   q1 median   q3  max start  end</span></span>
-<span><span class="co">#&gt; theta 1027 1026  5 1009 1024   1027 1029 1039  1017 1033</span></span></code></pre></div>
+<span><span class="co">#&gt; theta 1027 1026  5 1007 1024   1027 1029 1048  1018 1034</span></span></code></pre></div>
 <p>The date (mean posterior distribution) of the sunspot, estimated
 using a simple Bayesian model that combines dates and allows for
 individual random effects, is dates at 1026 years after Christ. This
-date is associated with a 95% confidence interval : [1017, 1033].</p>
+date is associated with a 95% confidence interval : [1018, 1034].</p>
 </div>
 </div>
 </div>

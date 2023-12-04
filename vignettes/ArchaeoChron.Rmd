@@ -1,15 +1,16 @@
 ---
 title: "Introduction to ArchaeoChron"
 author: "A. Philippe and M.-A. Vibet"
-date: "2023-06-27"
+date: "2023-12-04"
 output:
-  rmarkdown::html_vignette:
-    fig_caption: yes
-    toc: true
+  markdown::html_format:
+    options:
+      toc: true
+      number_sections: true
 vignette: >
   %\VignetteIndexEntry{Introduction to ArchaeoChron}
+  %\VignetteEngine{knitr::knitr}
   %\VignetteEncoding{UTF-8}
-  %\VignetteEngine{knitr::rmarkdown}
 ---
 
 
@@ -98,7 +99,7 @@ plot(MCMCEvent1[, 1], level = 0.95)
 
 (M1 <- summary(MCMCEvent1[, 1], level = 0.95))
 #>        mad mean sd  min   q1 median   q3  max start  end
-#> theta 1028 1028  3 1022 1027   1028 1029 1036  1025 1032
+#> theta 1028 1028  3 1021 1027   1028 1029 1035  1025 1032
 ```
 
 The date (mean posterior distribution) of the sunspot estimated using a simple Bayesian model that combines dates, is dates at 1028 years after Christ. This date is associated with a 95% confidence interval : [1025, 1032].
@@ -151,7 +152,7 @@ plot(MCMCEvent2[, 1], level = 0.95)
 
 (M2 <- summary(MCMCEvent2[, 1], level = 0.95))
 #>        mad mean sd  min   q1 median   q3  max start  end
-#> theta 1029 1028  3 1021 1027   1028 1029 1035  1025 1032
+#> theta 1028 1028  3 1022 1027   1028 1029 1035  1025 1032
 ```
 
 The date (mean posterior distribution) of the sunspot, estimated using a simple Bayesian model that combines dates and allows for outliers, is dates at 1028 years after Christ. This date is associated with a 95% confidence interval : [1025, 1032].
@@ -203,10 +204,10 @@ plot(MCMCEvent3[, 1], level = 0.95)
 
 (M3 <- summary(MCMCEvent3[, 1], level = 0.95))
 #>        mad mean sd min   q1 median   q3  max start  end
-#> theta 1027 1026  5 989 1024   1027 1029 1049  1018 1035
+#> theta 1027 1026  5 998 1024   1027 1029 1052  1018 1033
 ```
 
-The date (mean posterior distribution) of the sunspot, estimated using a simple Bayesian model that combines dates and allows for random effects, is dates at 1026 years after Christ. This date is associated with a 95% confidence interval : [1018, 1035].
+The date (mean posterior distribution) of the sunspot, estimated using a simple Bayesian model that combines dates and allows for random effects, is dates at 1026 years after Christ. This date is associated with a 95% confidence interval : [1018, 1033].
 
 ## Event Model : Bayesian model for combining Gaussian dates with individual random effects
 
@@ -256,12 +257,12 @@ gelman.diag(MCMC4)
 #> Potential scale reduction factors:
 #> 
 #>       Point est. Upper C.I.
-#> mu[1]          1       1.00
-#> mu[2]          1       1.00
-#> mu[3]          1       1.01
-#> mu[4]          1       1.01
-#> mu[5]          1       1.00
-#> theta          1       1.01
+#> mu[1]          1          1
+#> mu[2]          1          1
+#> mu[3]          1          1
+#> mu[4]          1          1
+#> mu[5]          1          1
+#> theta          1          1
 #> 
 #> Multivariate psrf
 #> 
@@ -290,7 +291,7 @@ plot(MCMCEvent4[, 6], level = 0.95)
 
 (M4 <- summary(MCMCEvent4[, 6], level = 0.95))
 #>        mad mean sd  min   q1 median   q3  max start  end
-#> theta 1027 1026  5 1009 1024   1027 1029 1039  1017 1033
+#> theta 1027 1026  5 1007 1024   1027 1029 1048  1018 1034
 ```
 
-The date (mean posterior distribution) of the sunspot, estimated using a simple Bayesian model that combines dates and allows for individual random effects, is dates at 1026 years after Christ. This date is associated with a 95% confidence interval : [1017, 1033].
+The date (mean posterior distribution) of the sunspot, estimated using a simple Bayesian model that combines dates and allows for individual random effects, is dates at 1026 years after Christ. This date is associated with a 95% confidence interval : [1018, 1034].

@@ -28,7 +28,7 @@ Suggests:
     ArchaeoPhases (>= 2.0),
     coda,
     knitr,
-    rmarkdown
+    markdown
 VignetteBuilder: 
     knitr
 Encoding: UTF-8

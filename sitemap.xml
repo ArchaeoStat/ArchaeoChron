@@ -1,69 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/404.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/LICENSE.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/articles/ArchaeoChron.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/index.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/ArchaeoChron-package.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/chronoEvents_Gauss.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/chronoOutliers_Gauss.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/chrono_Gauss.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/combinationWithOutliers_Gauss.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/combinationWithRandomEffect_Gauss.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/combination_Gauss.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/cuers.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/eventModel_C14.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/eventModel_Gauss.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/intcal13.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/marine13.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/shcal13.html</loc>
-  </url>
-  <url>
-    <loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/sunspot.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/404.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/LICENSE.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/articles/ArchaeoChron.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/articles/index.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/authors.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/index.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/news/index.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/ArchaeoChron-package.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/chronoEvents_Gauss.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/chronoOutliers_Gauss.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/chrono_Gauss.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/combinationWithOutliers_Gauss.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/combinationWithRandomEffect_Gauss.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/combination_Gauss.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/cuers.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/eventModel_C14.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/eventModel_Gauss.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/index.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/intcal13.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/marine13.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/shcal13.html</loc></url>
+<url><loc>https://ArchaeoStat.github.io/ArchaeoChron/reference/sunspot.html</loc></url>
 </urlset>
+

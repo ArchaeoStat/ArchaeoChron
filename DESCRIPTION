@@ -6,7 +6,13 @@ Authors@R: c(
     person("Anne", "Philippe", , "anne.philippe@univ-nantes.fr", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-5331-5087")),
     person("Marie-Anne", "Vibet", role = "aut",
-           comment = c(ORCID = "0000-0003-4003-3141"))
+           comment = c(ORCID = "0000-0003-4003-3141")),
+    person("Nicolas", "Frerebeau", , "nicolas.frerebeau@u-bordeaux-montaigne.fr", role = "ctb",
+           comment = c(ORCID = "0000-0001-5759-4944")),
+    person("Nantes Université", role = "fnd",
+           comment = c(ROR = "03gnr7b55")),
+    person("CNRS", role = "fnd",
+           comment = c(ROR = "02feahw73"))
   )
 Maintainer: Anne Philippe <anne.philippe@univ-nantes.fr>
 Description: Provides a list of functions for the Bayesian modeling of

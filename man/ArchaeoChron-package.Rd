@@ -3,7 +3,6 @@
 \docType{package}
 \name{ArchaeoChron-package}
 \alias{ArchaeoChron-package}
-\alias{_PACKAGE}
 \alias{ArchaeoChron}
 \title{ArchaeoChron: Bayesian Modeling of Archaeological Chronologies}
 \description{
@@ -11,11 +10,16 @@ Provides a list of functions for the Bayesian modeling of archaeological chronol
 }
 \details{
 \tabular{ll}{
-  **Package:** \tab ArchaeoChron \cr
-  **Type:** \tab Package \cr
-  **Version:** \tab 0.2 \cr
-  **License:** \tab GPL-3 \cr
+  **Version** \tab 0.2 \cr
+  **License** \tab GPL-3 \cr
+  **CRAN DOI** \tab \doi{10.32614/CRAN.package.ArchaeoChron} \cr
  }
+
+ Laboratoire de Mathématiques Jean Leray (UMR 6629)\cr
+ 2, rue de la Houssinière\cr
+ BP 92208\cr
+ F-44322 Nantes Cedex 3\cr
+ France
 }
 \seealso{
 Useful links:
@@ -27,23 +31,19 @@ Useful links:
 
 }
 \author{
-**Full list of authors and contributors** (alphabetic order)
+\strong{Maintainer}: Anne Philippe \email{anne.philippe@univ-nantes.fr} (\href{https://orcid.org/0000-0002-5331-5087}{ORCID})
 
- \tabular{ll}{
-  Nicolas Frerebeau \tab *Université Bordeaux Montaigne, France* \cr
-  Anne Philippe \tab *Université de Nantes, France* \cr
-  Marie-Anne Vibet \tab *Université de Nantes, France* \cr
- }
+Authors:
+\itemize{
+  \item Marie-Anne Vibet (\href{https://orcid.org/0000-0003-4003-3141}{ORCID})
+}
 
- **Package maintainer**
+Other contributors:
+\itemize{
+  \item Nicolas Frerebeau \email{nicolas.frerebeau@u-bordeaux-montaigne.fr} (\href{https://orcid.org/0000-0001-5759-4944}{ORCID}) [contributor]
+  \item Nantes Université (\href{https://ror.org/03gnr7b55}{ROR}) [funder]
+  \item CNRS (\href{https://ror.org/02feahw73}{ROR}) [funder]
+}
 
- Anne Philippe\cr
- \email{anne.philippe@univ-nantes.fr}
-
- Laboratoire de Mathématiques Jean Leray (UMR 6629)\cr
- 2, rue de la Houssinière\cr
- BP 92208\cr
- F-44322 Nantes Cedex 3\cr
- France
 }
 \keyword{internal}

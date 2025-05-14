@@ -42,7 +42,7 @@ The sunspot data is constituted of several dates assumed to be contemporaneous o
 
 Let's first use a simple Bayesian model.
 
-```{r}
+```{r, results=FALSE}
 data(sunspot)
 
 MCMC1 <- combination_Gauss(
@@ -88,7 +88,7 @@ The date (mean posterior distribution) of the sunspot estimated using a simple B
 
 Let's use the function `combinationWithOutliers_Gauss()`.
 
-```{r}
+```{r, results=FALSE}
 MCMC2 <- combinationWithOutliers_Gauss(
   M = sunspot$Age[1:5],
   s = sunspot$Error[1:5],
@@ -121,7 +121,7 @@ The date (mean posterior distribution) of the sunspot, estimated using a simple 
 
 Let's now use the function `combinationWithRandomEffect_Gauss()`.
 
-```{r}
+```{r, results=FALSE}
 MCMC3 <- combinationWithRandomEffect_Gauss(
   M = sunspot$Age[1:5],
   s = sunspot$Error[1:5],
@@ -155,7 +155,7 @@ If we want to date that event, we can use the Event model for combining Gaussian
 
 Finally, let's use the function `eventModel_Gauss()` and the first 10 dates of the dataset sunspot. The study period should be given in calendar year (BC/AD).
 
-```{r}
+```{r, results=FALSE}
 MCMC4 <- eventModel_Gauss(
   M = sunspot$Age[1:5],
   s = sunspot$Error[1:5],

@@ -9,17 +9,17 @@
 #' @param refYear A [`numeric`] vector specifying the reference year. If `NULL`
 #'  (the default), AD years are expected.
 #' @param numberChains An [`integer`] giving the number of of parallel chains
-#'  for the model (see [jags.model()]).
+#'  for the model (see [rjags::jags.model()]).
 #' @param numberAdapt An [`integer`] giving the number of iterations for
-#'  adaptation (see [jags.model()]).
+#'  adaptation (see [rjags::jags.model()]).
 #' @param numberUpdate An [`integer`] giving the number of iterations to update
 #'  the model by.
 #' @param variable.names A [`character`] vector giving the names of variables to
-#'  be monitored (see [coda.samples()]).
+#'  be monitored (see [rjags::coda.samples()]).
 #' @param numberSample An [`integer`] giving the number of iterations to
-#'  monitor (see [coda.samples()]).
+#'  monitor (see [rjags::coda.samples()]).
 #' @param thin An [`integer`] giving the thinning interval for monitors
-#'  (see [coda.samples()]).
+#'  (see [rjags::coda.samples()]).
 #' @return An [`mcmc.list`][coda::mcmc.list()] object.
 #' @author A. Philippe, M.-A. Vibet
 #' @export
@@ -40,7 +40,7 @@ chrono_Gauss <- function(M, s, studyPeriodMin, studyPeriodMax, refYear = NULL,
   model.file <- system.file(package = "ArchaeoChron", "model", "chrono_Gauss.txt")
 
   print('Modeling done with JAGS following')
-  jags <- jags.model(
+  jags <- rjags::jags.model(
     file = model.file,
     data = list('Nbobs' = length(M), 'M' = M, 's' = s,
                 'ta' = studyPeriodMin, 'tb' = studyPeriodMax),
@@ -52,7 +52,7 @@ chrono_Gauss <- function(M, s, studyPeriodMin, studyPeriodMax, refYear = NULL,
   stats::update(object = jags, n.iter = numberUpdate)
   print('Acquire period')
 
-  coda.samples(
+  rjags::coda.samples(
     model = jags,
     variable.names = variable.names,
     n.iter = numberSample,

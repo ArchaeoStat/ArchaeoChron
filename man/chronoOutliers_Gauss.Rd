@@ -39,22 +39,22 @@ time of the study period.}
 (the default), AD years are expected.}
 
 \item{numberChains}{An [`integer`] giving the number of of parallel chains
-for the model (see [jags.model()]).}
+for the model (see [rjags::jags.model()]).}
 
 \item{numberAdapt}{An [`integer`] giving the number of iterations for
-adaptation (see [jags.model()]).}
+adaptation (see [rjags::jags.model()]).}
 
 \item{numberUpdate}{An [`integer`] giving the number of iterations to update
 the model by.}
 
 \item{variable.names}{A [`character`] vector giving the names of variables to
-be monitored (see [coda.samples()]).}
+be monitored (see [rjags::coda.samples()]).}
 
 \item{numberSample}{An [`integer`] giving the number of iterations to
-monitor (see [coda.samples()]).}
+monitor (see [rjags::coda.samples()]).}
 
 \item{thin}{An [`integer`] giving the thinning interval for monitors
-(see [coda.samples()]).}
+(see [rjags::coda.samples()]).}
 }
 \value{
 An [`mcmc.list`][coda::mcmc.list()] object.

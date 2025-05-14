@@ -20,10 +20,11 @@ URL: https://ArchaeoStat.github.io/ArchaeoChron/,
     https://github.com/ArchaeoStat/ArchaeoChron
 BugReports: https://github.com/ArchaeoStat/ArchaeoChron/issues
 Depends: 
-    R (>= 3.5),
-    rjags
+    R (>= 3.5)
 Imports: 
-    Bchron
+    aion,
+    ananke,
+    rjags
 Suggests: 
     ArchaeoPhases (>= 2.0),
     coda,
@@ -34,4 +35,7 @@ VignetteBuilder:
 Encoding: UTF-8
 LazyData: true
 NeedsCompilation: no
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2.9000
+X-schema.org-applicationCategory: Archaeological Science
+X-schema.org-keywords: markov-chain, bayesian-statistics, geochronology,
+    radiocarbon-dates, archaeology, archaeological-science, r-package

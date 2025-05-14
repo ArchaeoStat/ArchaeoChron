@@ -31,6 +31,7 @@
 #' @keywords internal
 "_PACKAGE"
 
-#' @importFrom Bchron BchronCalibrate
+#' @import aion
+#' @importFrom ananke c14_calibrate c14_curve
 #' @importFrom rjags coda.samples jags.model
 NULL

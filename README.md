@@ -7,7 +7,6 @@
 
 [![R-CMD-check](https://github.com/ArchaeoStat/ArchaeoChron/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ArchaeoStat/ArchaeoChron/actions/workflows/R-CMD-check.yaml)
 [![codecov](https://codecov.io/gh/ArchaeoStat/ArchaeoChron/branch/master/graph/badge.svg)](https://app.codecov.io/gh/ArchaeoStat/ArchaeoChron)
-[![Dependencies](https://tinyverse.netlify.com/badge/ArchaeoChron)](https://cran.r-project.org/package=ArchaeoChron)
 
 <a href="https://ArchaeoStat.r-universe.dev" class="pkgdown-devel"><img
 src="https://ArchaeoStat.r-universe.dev/badges/ArchaeoChron"
@@ -15,11 +14,7 @@ alt="r-universe" /></a>
 <a href="https://cran.r-project.org/package=ArchaeoChron"
 class="pkgdown-release"><img
 src="http://www.r-pkg.org/badges/version/ArchaeoChron"
-alt="CRAN Version" /></a> <a
-href="https://cran.r-project.org/web/checks/check_results_ArchaeoChron.html"
-class="pkgdown-release"><img
-src="https://badges.cranchecks.info/worst/ArchaeoChron.svg"
-alt="CRAN checks" /></a>
+alt="CRAN Version" /></a>
 <a href="https://cran.r-project.org/package=ArchaeoChron"
 class="pkgdown-release"><img
 src="http://cranlogs.r-pkg.org/badges/ArchaeoChron"
@@ -110,7 +105,8 @@ posterior distribution of one of the following Bayesian models:
 
 ## References
 
-<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
 
 <div id="ref-bronkramsey2009" class="csl-entry">
 

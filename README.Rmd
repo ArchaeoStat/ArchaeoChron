@@ -19,11 +19,9 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/ArchaeoStat/ArchaeoChron/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/ArchaeoStat/ArchaeoChron/actions/workflows/R-CMD-check.yaml)
 [![codecov](https://codecov.io/gh/ArchaeoStat/ArchaeoChron/branch/master/graph/badge.svg)](https://app.codecov.io/gh/ArchaeoStat/ArchaeoChron)
-[![Dependencies](https://tinyverse.netlify.com/badge/ArchaeoChron)](https://cran.r-project.org/package=ArchaeoChron)
 
 [![r-universe](https://ArchaeoStat.r-universe.dev/badges/ArchaeoChron)](https://ArchaeoStat.r-universe.dev){.pkgdown-devel}
 [![CRAN Version](http://www.r-pkg.org/badges/version/ArchaeoChron)](https://cran.r-project.org/package=ArchaeoChron){.pkgdown-release}
-[![CRAN checks](https://badges.cranchecks.info/worst/ArchaeoChron.svg)](https://cran.r-project.org/web/checks/check_results_ArchaeoChron.html){.pkgdown-release}
 [![CRAN Downloads](http://cranlogs.r-pkg.org/badges/ArchaeoChron)](https://cran.r-project.org/package=ArchaeoChron){.pkgdown-release}
 
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)

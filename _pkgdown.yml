@@ -1,1 +1,10 @@
 url: https://ArchaeoStat.github.io/ArchaeoChron
+development:
+  mode: auto
+
+template:
+  bootstrap: 5
+  light-switch: true
+
+search:
+  exclude: ['CODE_OF_CONDUCT.html','CONTRIBUTING.html','LICENSE.html','authors.html','news/index.html']

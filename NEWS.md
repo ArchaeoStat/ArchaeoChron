@@ -1,7 +1,8 @@
-# ArchaeoChron v0.2
+# ArchaeoChron 0.2
 
-* Update the vignette to follow changes in **ArchaeoPhases** v2.0.
+* Follow changes in **ArchaeoPhases** v2.0.
+* Use **ananke** instead of **Bchron**.
 
-# ArchaeoChron v0.1
+# ArchaeoChron 0.1
 
 * Initial release.

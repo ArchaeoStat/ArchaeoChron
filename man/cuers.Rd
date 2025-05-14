@@ -5,7 +5,7 @@
 \alias{cuers}
 \title{Cuers}
 \format{
-An object of class \code{data.frame} with 2 rows and 3 columns.
+A [`data.frame`] with 2 rows and 3 columns.
 }
 \usage{
 cuers
@@ -15,9 +15,6 @@ Cuers
 }
 \seealso{
 Other datasets: 
-\code{\link{intcal13}},
-\code{\link{marine13}},
-\code{\link{shcal13}},
 \code{\link{sunspot}}
 }
 \concept{datasets}

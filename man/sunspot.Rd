@@ -5,7 +5,7 @@
 \alias{sunspot}
 \title{Sunspot}
 \format{
-An object of class \code{data.frame} with 171 rows and 2 columns.
+A [`data.frame`] with 171 rows and 2 columns.
 }
 \usage{
 sunspot
@@ -15,10 +15,7 @@ Sunspot
 }
 \seealso{
 Other datasets: 
-\code{\link{cuers}},
-\code{\link{intcal13}},
-\code{\link{marine13}},
-\code{\link{shcal13}}
+\code{\link{cuers}}
 }
 \concept{datasets}
 \keyword{datasets}
